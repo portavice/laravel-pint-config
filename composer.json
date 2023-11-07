@@ -1,0 +1,17 @@
+{
+    "name": "portavice/laravel-pint-config",
+    "description": "Laravel Pint configuration used at portavice",
+    "type": "library",
+    "require": {
+        "laravel/pint": "^1.13"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Robrecht",
+            "role": "Lead Developer",
+            "email": "patrick.robrecht@portavice.de"
+        }
+    ],
+    "minimum-stability": "stable"
+}
