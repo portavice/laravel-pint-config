@@ -4,8 +4,16 @@
 [![Latest version on Packagist](https://img.shields.io/packagist/v/portavice/laravel-pint-config.svg)](https://packagist.org/packages/portavice/laravel-pint-config)
 [![Total downloads](https://img.shields.io/packagist/dt/portavice/laravel-pint-config.svg)](https://packagist.org/packages/portavice/laravel-pint-config)
 
-This projects contains the default configuration for [Laravel Pint](https://laravel.com/docs/10.x/pint#configuring-pint)
+This project contains the default configuration for [Laravel Pint](https://laravel.com/docs/12.x/pint#configuring-pint)
 used at portavice GmbH.
+
+The ruleset is based on [PSR12](https://cs.symfony.com/doc/ruleSets/PSR12.html) with additional rules for
+
+- ordered class elements, imports, used interfaces and traits, parameter types,
+- short syntax, proper indentation, trailing commas for arrays,
+- consistent braces, operators, spacing, blank lines, 
+- preferring single quotes,
+- and avoiding useless code (`else`, `return`, `sprintf`, empty statements).
 
 ## Contents
 

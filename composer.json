@@ -3,7 +3,7 @@
     "description": "Laravel Pint configuration used at portavice",
     "type": "library",
     "require": {
-        "laravel/pint": "^1.13"
+        "laravel/pint": "^1.25"
     },
     "license": "MIT",
     "authors": [
