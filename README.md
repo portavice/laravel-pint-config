@@ -9,10 +9,12 @@ used at portavice GmbH.
 
 The ruleset is based on [PSR12](https://cs.symfony.com/doc/ruleSets/PSR12.html) with additional rules for
 
-- ordered class elements, imports, used interfaces and traits, parameter types,
-- short syntax, proper indentation, trailing commas for arrays,
-- consistent braces, operators, spacing, blank lines, formatting of PHPDoc and other comments,
+- ordered class elements, imports, used interfaces and traits, parameter types, attributes,
+- short syntax, proper indentation, trailing commas, square index braces for arrays,
+- consistent imports, braces, operators, spacing, blank lines, formatting of PHPDoc and other comments,
 - preferring single quotes,
+- combining consecutive `isset`s or `unset`s,
+- enforcing PSR autoloading and global imports,
 - enforcing PHPUnit standards (camel case for methods, data providers after the test using it, use attributes/code instead of PHPDoc when possible),
 - and avoiding useless code (`else`, `return`, `sprintf`, empty statements).
 
