@@ -11,7 +11,7 @@ The ruleset is based on [PSR12](https://cs.symfony.com/doc/ruleSets/PSR12.html) 
 
 - ordered class elements, imports, used interfaces and traits, parameter types,
 - short syntax, proper indentation, trailing commas for arrays,
-- consistent braces, operators, spacing, blank lines, 
+- consistent braces, operators, spacing, blank lines, formatting of PHPDoc and other comments,
 - preferring single quotes,
 - and avoiding useless code (`else`, `return`, `sprintf`, empty statements).
 

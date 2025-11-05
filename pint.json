@@ -1,6 +1,7 @@
 {
     "preset": "psr12",
     "rules": {
+        "align_multiline_comment": true,
         "array_indentation": true,
         "array_syntax": {
             "syntax": "short"
@@ -18,10 +19,12 @@
         },
         "class_reference_name_casing": true,
         "clean_namespace": true,
+        "comment_to_phpdoc": true,
         "list_syntax": true,
         "method_argument_space": {
             "on_multiline": "ensure_fully_multiline"
         },
+        "multiline_comment_opening_closing": true,
         "new_with_parentheses": {
             "anonymous_class": false
         },
@@ -30,6 +33,9 @@
                 "@all"
             ]
         },
+        "no_blank_lines_after_phpdoc": true,
+        "no_empty_comment": true,
+        "no_empty_phpdoc": true,
         "no_extra_blank_lines": {
             "tokens": [
                 "case",
@@ -74,9 +80,175 @@
         "ordered_types": {
             "null_adjustment": "always_last"
         },
+        "phpdoc_align": {
+            "align": "left",
+            "tags": [
+                "api",
+                "author",
+                "codeCoverageIgnore",
+                "copyright",
+                "depends",
+                "deprecated",
+                "description",
+                "example",
+                "experimental",
+                "extends",
+                "final",
+                "group",
+                "implements",
+                "inheritDoc",
+                "internal",
+                "licence",
+                "link",
+                "method",
+                "mixin",
+                "named-arguments-supported",
+                "noinspection",
+                "no-named-arguments-supported",
+                "param",
+                "param-closure-this",
+                "param-out",
+                "phpstan-assert",
+                "phpstan-assert-if-false",
+                "phpstan-assert-if-true",
+                "phpstan-extends",
+                "phpstan-ignore",
+                "phpstan-ignore-next-line",
+                "phpstan-implements",
+                "phpstan-import-type",
+                "phpstan-impure",
+                "phpstan-method",
+                "phpstan-param",
+                "phpstan-property",
+                "phpstan-property-read",
+                "phpstan-property-write",
+                "phpstan-require-extends",
+                "phpstan-require-implements",
+                "phpstan-sealed",
+                "phpstan-template",
+                "phpstan-this-out",
+                "phpstan-type",
+                "phpstan-var",
+                "property",
+                "property-read",
+                "property-write",
+                "props",
+                "psalm-allow-private-mutation",
+                "psalm-assert",
+                "psalm-assert-if-false",
+                "psalm-assert-if-true",
+                "psalm-immutable",
+                "psalm-method",
+                "psalm-param",
+                "psalm-param-out",
+                "psalm-property",
+                "psalm-property-read",
+                "psalm-property-write",
+                "psalm-pure",
+                "psalm-readonly",
+                "psalm-return",
+                "psalm-suppress",
+                "psalm-template",
+                "return",
+                "since",
+                "template",
+                "template-covariant",
+                "template-extends",
+                "template-implements",
+                "throws",
+                "todo",
+                "uses",
+                "var",
+                "version"
+            ]
+        },
+        "phpdoc_inline_tag_normalizer": true,
+        "phpdoc_no_alias_tag": {
+            "replacements": {
+                "link": "see",
+                "type": "var"
+            }
+        },
+        "phpdoc_no_empty_return": true,
+        "phpdoc_no_package": true,
+        "phpdoc_no_useless_inheritdoc": true,
+        "phpdoc_order": true,
+        "phpdoc_order_by_value": {
+            "annotations": [
+                "author",
+                "depends",
+                "group",
+                "throws",
+                "uses"
+            ]
+        },
         "phpdoc_param_order": true,
+        "phpdoc_return_self_reference": true,
+        "phpdoc_scalar": true,
+        "phpdoc_separation": {
+            "groups": [
+                [
+                    "author",
+                    "copyright",
+                    "description",
+                    "license"
+                ],
+                [
+                    "template",
+                    "template-covariant",
+                    "template-extends",
+                    "template-implements"
+                ],
+                [
+                    "mixin"
+                ],
+                [
+                    "phpstan-property",
+                    "phpstan-property-read",
+                    "phpstan-property-write",
+                    "property",
+                    "property-read",
+                    "property-write",
+                    "psalm-property",
+                    "psalm-property-read",
+                    "psalm-property-write"
+                ],
+                [
+                    "param",
+                    "phpstan-param",
+                    "psalm-param",
+                    "psalm-param-out"
+                ],
+                [
+                    "return",
+                    "phpstan-return",
+                    "psalm-return"
+                ],
+                [
+                    "throws",
+                    "phpstan-throws"
+                ],
+                [
+                    "api",
+                    "deprecated",
+                    "see",
+                    "since",
+                    "version"
+                ]
+            ],
+            "skip_unlisted_annotations": true
+        },
+        "phpdoc_single_line_var_spacing": true,
+        "phpdoc_summary": true,
+        "phpdoc_tag_casing": true,
         "phpdoc_trim": true,
         "phpdoc_trim_consecutive_blank_line_separation": true,
+        "phpdoc_types": true,
+        "phpdoc_types_order": {
+            "null_adjustment": "always_last"
+        },
+        "phpdoc_var_annotation_correct_order": true,
+        "phpdoc_var_without_name": true,
         "psr_autoloading": true,
         "single_line_comment_spacing": true,
         "single_space_around_construct": true,
