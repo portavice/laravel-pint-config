@@ -13,6 +13,7 @@ The ruleset is based on [PSR12](https://cs.symfony.com/doc/ruleSets/PSR12.html) 
 - short syntax, proper indentation, trailing commas for arrays,
 - consistent braces, operators, spacing, blank lines, formatting of PHPDoc and other comments,
 - preferring single quotes,
+- enforcing PHPUnit standards (camel case for methods, data providers after the test using it, use attributes/code instead of PHPDoc when possible),
 - and avoiding useless code (`else`, `return`, `sprintf`, empty statements).
 
 ## Contents
